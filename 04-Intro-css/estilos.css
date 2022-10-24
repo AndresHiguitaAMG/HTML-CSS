@@ -4,4 +4,30 @@ h1 {
 
 p {
     color: blue;
+    font-size: 16pt;
+}
+
+/* p#primera-noticia */
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    /* color: darkmagenta; */
+    font-size: 10pt;
+}
+
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+*.warning {
+    color: red;
+}
+
+/* Por si quiero aplicar un mismo estilo a diferentes etiquetas o selectore */
+.autor, .fecha, .ubicacion, h1, #segunda-noticia {
+    text-decoration: underline;
 }
