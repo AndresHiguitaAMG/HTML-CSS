@@ -1,6 +1,9 @@
 .flex {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
     background-color: yellow;
     height: 300px;
 }
@@ -20,7 +23,7 @@
 }
 
 .contenido-3 {
-    background-color: white;
+    background-color: pink;
     height: 200px;
     width: 100px;
     border: 1px solid blue;
